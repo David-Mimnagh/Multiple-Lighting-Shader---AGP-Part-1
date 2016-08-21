@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Being Used">
+      <UniqueIdentifier>{a78e236f-4663-4c22-b007-f1a31ede365e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Not Used">
+      <UniqueIdentifier>{334c4c28-fdef-490f-abba-8169a56c7e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Being Used">
+      <UniqueIdentifier>{a14d3a60-2f39-4d03-b675-34536d7fed7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Being Used">
+      <UniqueIdentifier>{6ceee57d-a135-49d6-9859-00f2b3d87e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Not Used">
+      <UniqueIdentifier>{256140c1-d6de-4f04-ad74-be3ab8017401}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Being Used</Filter>
+    </ClCompile>
+    <ClCompile Include="particleArray.cpp">
+      <Filter>Source Files\Being Used</Filter>
+    </ClCompile>
+    <ClCompile Include="rt3d.cpp">
+      <Filter>Source Files\Being Used</Filter>
+    </ClCompile>
+    <ClCompile Include="rt3dObjLoader.cpp">
+      <Filter>Source Files\Being Used</Filter>
+    </ClCompile>
+    <ClCompile Include="md2model.cpp">
+      <Filter>Source Files\Not Used</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="particle.frag">
+      <Filter>Resource Files\Being Used</Filter>
+    </None>
+    <None Include="phong-tex.frag">
+      <Filter>Resource Files\Being Used</Filter>
+    </None>
+    <None Include="particle.vert">
+      <Filter>Resource Files\Being Used</Filter>
+    </None>
+    <None Include="phong-tex.vert">
+      <Filter>Resource Files\Being Used</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="particleArray.h">
+      <Filter>Header Files\Being Used</Filter>
+    </ClInclude>
+    <ClInclude Include="rt3d.h">
+      <Filter>Header Files\Being Used</Filter>
+    </ClInclude>
+    <ClInclude Include="rt3dObjLoader.h">
+      <Filter>Header Files\Being Used</Filter>
+    </ClInclude>
+    <ClInclude Include="anorms.h">
+      <Filter>Header Files\Not Used</Filter>
+    </ClInclude>
+    <ClInclude Include="cube.h">
+      <Filter>Header Files\Not Used</Filter>
+    </ClInclude>
+    <ClInclude Include="md2model.h">
+      <Filter>Header Files\Not Used</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
